@@ -10,8 +10,8 @@
   "categories": ["food", "restaurant"],
   "lang": "en",
 "icons": [
-  { "src": "icons/icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-  { "src": "icons/icon.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  { "src": "https://jakibra.vercel.app/icons/icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+  { "src": "https://jakibra.vercel.app/icons/icon.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
 ],
   "shortcuts": [
     {
