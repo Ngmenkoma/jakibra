@@ -9,9 +9,10 @@
   "theme_color": "#C8102E",
   "categories": ["food", "restaurant"],
   "lang": "en",
-  "icons": [
-    { "src": "icons/icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
-  ],
+"icons": [
+  { "src": "icons/icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+  { "src": "icons/icon.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+],
   "shortcuts": [
     {
       "name": "View Menu",
