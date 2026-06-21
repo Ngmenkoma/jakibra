@@ -1,0 +1,54 @@
+{
+  "name": "Jakibra Restaurant — Fine Cuisine, Wa Ghana",
+  "short_name": "Jakibra",
+  "description": "Authentic Ghanaian cuisine in the heart of Wa, Upper West Region. Order online or visit us today.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#1A0608",
+  "theme_color": "#C8102E",
+  "categories": ["food", "restaurant"],
+  "lang": "en",
+  "icons": [
+  { "src": "icons/icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+],
+  "screenshots": [
+    {
+      "src": "icons/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Jakibra Restaurant Homepage"
+    },
+    {
+      "src": "icons/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Jakibra Restaurant Mobile View"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "View Menu",
+      "short_name": "Menu",
+      "description": "Browse our signature dishes",
+      "url": "/index.html#products",
+      "icons": [{ "src": "icons/icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "WhatsApp Order",
+      "short_name": "Order",
+      "description": "Chat with us on WhatsApp",
+      "url": "https://wa.me/233240274887",
+      "icons": [{ "src": "icons/icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Find Us",
+      "short_name": "Location",
+      "description": "Get directions to Jakibra Restaurant",
+      "url": "/index.html#location",
+      "icons": [{ "src": "icons/icon-96.png", "sizes": "96x96" }]
+    }
+  ]
+}
