@@ -8,8 +8,7 @@ const ALL_CACHES    = [CACHE_STATIC, CACHE_IMAGES];
 const STATIC_ASSETS = [
   '/index.html',
   '/manifest.json',
-  '/icons/icon-192.png',
-  '/icons/icon-512.png',
+ '/icons/icon.png',
   // External CDN assets (cached on first fetch)
   'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Outfit:wght@300;400;500;600;700&display=swap',
   'https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css',
