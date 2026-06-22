@@ -1,7 +1,7 @@
 {
-  "name": "Jakibra Restaurant — Fine Cuisine, Wa Ghana",
-  "short_name": "Jakibra",
-  "description": "Authentic Ghanaian cuisine in the heart of Wa, Upper West Region. Order online or visit us today.",
+  "name": "The Foodie Home, Ghana",
+  "short_name": "Foodie Home",
+  "description": "Authentic Ghanaian cuisine in the heart of Ghana. Order online or visit us today.",
   "start_url": "/index.html",
   "display": "standalone",
   "orientation": "portrait-primary",
@@ -25,7 +25,7 @@
       "name": "WhatsApp Order",
       "short_name": "Order",
       "description": "Chat with us on WhatsApp",
-      "url": "https://wa.me/233240274887",
+      "url": "https://wa.me/233505758259",
       "icons": [{ "src": "icons/icon.png", "sizes": "512x512" }]
     },
     {
