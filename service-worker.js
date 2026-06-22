@@ -1,7 +1,7 @@
 // ── Jakibra Restaurant — Service Worker ──
 const CACHE_VERSION = 'v1';
-const CACHE_STATIC  = `jakibra-static-${CACHE_VERSION}`;
-const CACHE_IMAGES  = `jakibra-images-${CACHE_VERSION}`;
+const CACHE_STATIC  = `foodie-static-${CACHE_VERSION}`;
+const CACHE_IMAGES  = `foodie-images-${CACHE_VERSION}`;
 const ALL_CACHES    = [CACHE_STATIC, CACHE_IMAGES];
 
 // Core assets to pre-cache on install
@@ -18,7 +18,7 @@ const STATIC_ASSETS = [
 
 // ── INSTALL: Pre-cache static assets ──
 self.addEventListener('install', event => {
-  console.log('[SW] Installing Jakibra Service Worker...');
+  console.log('[SW] Installing Foodie Service Worker...');
   event.waitUntil(
     caches.open(CACHE_STATIC)
       .then(cache => {
@@ -34,7 +34,7 @@ self.addEventListener('install', event => {
 
 // ── ACTIVATE: Clean old caches ──
 self.addEventListener('activate', event => {
-  console.log('[SW] Activating Jakibra Service Worker...');
+  console.log('[SW] Activating Foodie Service Worker...');
   event.waitUntil(
     caches.keys()
       .then(keys =>
@@ -204,7 +204,7 @@ self.addEventListener('notificationclick', event => {
   if (event.action === 'view-menu') {
     targetUrl = '/index.html#products';
   } else if (event.action === 'whatsapp') {
-    targetUrl = 'https://wa.me/233240274887';
+    targetUrl = 'https://wa.me/233505758259';
   } else if (event.notification.data?.url) {
     targetUrl = event.notification.data.url;
   }
